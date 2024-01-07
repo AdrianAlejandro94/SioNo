@@ -8,14 +8,11 @@ body{
 }
 
 .contenedor{
-    margin: auto;
-    width: 900px;
-    margin-top: 300px;
-    text-align: center;
+   
 }
 
 .titulo{
-    margin-bottom: 20px;
+    margin-bottom: 200px;
 }
 
 .opciones p{
@@ -29,8 +26,8 @@ body{
 
 p.p1{
     position: absolute;
-    top: 400px;
-    left: 500px;
+    top: 200px;
+    left: 100px;
     width: 100px;
 }
 p.p1:hover{
@@ -40,8 +37,8 @@ p.p1:hover{
 
 p.p2{
     position: absolute;
-    top: 400px;
-    left: 750px;
+    top: 200px;
+    left: 250px;
     width: 100px;
 }
 p.p2:hover{
@@ -57,4 +54,53 @@ p.p2:hover{
     color: #ffffff;
     padding: 50px;
     display: none;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.phone {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.phone img {
+    max-width: 100%;
+    height: auto;
 }
