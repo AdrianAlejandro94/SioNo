@@ -7,12 +7,10 @@ body{
     background: #fcfcfc;
 }
 
-.contenedor{
-   
-}
+
 
 .titulo{
-    margin-bottom: 200px;
+    margin-bottom: 150px;
 }
 
 .opciones p{
@@ -25,34 +23,28 @@ body{
 }
 
 p.p1{
-    position: absolute;
-    top: 200px;
-    left: 20px;
+    top: 300px;
+    left: 30px;
     width: 100px;
+
 }
 p.p1:hover{
-    background: gray;
     cursor: pointer;
 }
 
 p.p2{
-    position: absolute;
-    top: 200px;
-    left: 100px;
+    top: 300px;
+    left: 200px;
     width: 100px;
+    background: green;
+
 }
 p.p2:hover{
-    background: gray;
     cursor: pointer;
 }
 #si{
-    background: #515050;
-    left: 420px;
-    position: absolute;
-    top: 122px;
-    width: 550px;
     color: #ffffff;
-    padding: 50px;
+    margin-top: 50px;
     display: none;
 }
 
